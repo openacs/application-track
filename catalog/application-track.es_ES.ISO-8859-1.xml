@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="application-track" package_version="0.1d" locale="es_ES" charset="ISO-8859-1">
+
+  <msg key="All_Applications">Todo</msg>
+  <msg key="Application">Aplicación</msg>
+  <msg key="Application_Name">Nombre de la aplicación</msg>
+  <msg key="Application_Track">Seguimiento de Aplicaciones</msg>
+  <msg key="Class">Clase</msg>
+  <msg key="Class_instance">Instancia de clase</msg>
+  <msg key="Classes_Selection">Selección de clases</msg>
+  <msg key="Communities_selection">Selección de Comunidades</msg>
+  <msg key="Community">Comunidad</msg>
+  <msg key="Community_Name">Nombre de la comunidad</msg>
+  <msg key="created_elements">Elementos creados</msg>
+  <msg key="Department">Departamento</msg>
+  <msg key="Departments">Departamentos</msg>
+  <msg key="General_Report">Informe General</msg>
+  <msg key="Go">Ver</msg>
+  <msg key="Group_Name">Nombre del grupo</msg>
+  <msg key="ID">ID</msg>
+  <msg key="lt_click_on_elements_number">Pulse en el número de elementos creados para ver informes sobre el uso de la aplicación en la comunidad.</msg>
+  <msg key="lt_click_on_Go">Pulse en &quot;Ver&quot; para ver un informe sobre todas las aplicaciones instaladas en esa comunidad.</msg>
+  <msg key="lt_elements_created">Elementos creados por cada aplicación dentro de las comunidades seleccionadas</msg>
+  <msg key="lt_View_data_about_every_application">Ver datos sobre todas las aplicaciones en las comunidades seleccionadas</msg>
+  <msg key="lt_View_data_for_selected_applications">Ver datos sobre las aplicaciones seleccionadas en todas las comunidades</msg>
+  <msg key="Members">Miembros</msg>
+  <msg key="Please_type_a_keyword">Introduzca palabra</msg>
+  <msg key="Report_about_installed_applications">Informe sobre las aplicaciones instaladas</msg>
+  <msg key="Select_by_applications">Selección por aplicación</msg>
+  <msg key="Select_by_communities">Selección por comunidad</msg>
+  <msg key="Select_by_department_term">Selección por departamento y/o periodo</msg>
+  <msg key="Select_classes_to_analyze">Selecciona las clases a analizar</msg>
+  <msg key="Select_Communities_to_analyze">Selecciona las comunidades a analizar</msg>
+  <msg key="Show_classes_only_with">Mostras clases sólo con</msg>
+  <msg key="Term">Periodo</msg>
+  <msg key="term">Periodo</msg>
+</message_catalog>

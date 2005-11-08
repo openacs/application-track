@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="application-track" package_version="0.1d" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="All_Applications">Todo</msg>
+  <msg key="Application">Application</msg>
+  <msg key="Application_Name">Application Name</msg>
+  <msg key="Application_Track">Application Track</msg>
+  <msg key="application_track_managment">Application Track Management</msg>
+  <msg key="Chose_applications">Chose the applications to analyze</msg>
+  <msg key="Class">Class</msg>
+  <msg key="Class_instance">Class_instance</msg>
+  <msg key="Classes_analyze">Select classes and aplications to analyze</msg>
+  <msg key="Classes_Selection">Classes Selection</msg>
+  <msg key="Communities_analyze">Select communities and applications to analyze</msg>
+  <msg key="Communities_selection">Communities Selection</msg>
+  <msg key="Community">Community</msg>
+  <msg key="Community_Name">Community Name</msg>
+  <msg key="created_elements">Created elements</msg>
+  <msg key="Department">Department</msg>
+  <msg key="Departments">Departments</msg>
+  <msg key="General_Report">General Report</msg>
+  <msg key="Go">Go</msg>
+  <msg key="Group_Name">Group Name</msg>
+  <msg key="ID">ID</msg>
+  <msg key="lt_click_on_elements_number">Click on created elements number to see a report about the use of the application within the community.</msg>
+  <msg key="lt_click_on_Go">Click on #application-track.Go# to see a report about every application installed within the community.</msg>
+  <msg key="lt_elements_created">Elements created by every application within selected communities</msg>
+  <msg key="lt_View_data_about_every_application">View data about every application in selected communities</msg>
+  <msg key="lt_View_data_for_selected_applications">View data for selected applications in every community</msg>
+  <msg key="Members">Members</msg>
+  <msg key="Please_type_a_keyword">Please type a keyword</msg>
+  <msg key="Previous_report">Previous report</msg>
+  <msg key="Report_about_installed_applications">Report about installed applications</msg>
+  <msg key="Select_by_applications">Select by applications</msg>
+  <msg key="Select_by_communities">Select by communities</msg>
+  <msg key="Select_by_department_term">Select by department and/or term</msg>
+  <msg key="Select_classes_to_analyze">Select classes to analyze</msg>
+  <msg key="Select_Communities_to_analyze">Select communities to analyze</msg>
+  <msg key="Show_classes_only_with">Show classes only with</msg>
+  <msg key="Term">Term</msg>
+  <msg key="term">term</msg>
+</message_catalog>
