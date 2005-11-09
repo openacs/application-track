@@ -8,13 +8,13 @@
 </br>
 
 <% foreach app $applicationsList { 
-	set nelements [callback -impl "$app" GetGeneralInfo -comm_id $class_instance_id]
+	set nelements [callback -impl "$app" application-track::getGeneralInfo -comm_id $class_instance_id]
 	set nelements_p 0
 	set show_p 1
 
 	if {$nelements != 0 } {
 		set nelements_p 1
-		set resultado [callback -impl $app GetSpecificInfo -comm_id $class_instance_id -query_name "query" -elements_name "elements" ]
+		set resultado [callback -impl $app application-track::getSpecificInfo -comm_id $class_instance_id -query_name "query" -elements_name "elements" ]
 		if {[exists_and_not_null query]} {
 		template::list::create \
 		    -name $app \

@@ -85,7 +85,7 @@ foreach class_id $class_instance_id {
 	template::multirow set CommList [template::multirow size CommList] "url2" "specific?class_instance_id=$class_id$link" 
 
 	foreach app $applicationsList {
-	   	template::multirow set CommList [template::multirow size CommList] "$app" [lindex [callback -impl "$app" GetGeneralInfo -comm_id $class_id] 0]
+	   	template::multirow set CommList [template::multirow size CommList] "$app" [lindex [callback -impl "$app" application-track::getGeneralInfo -comm_id $class_id] 0]
 	   	template::multirow set CommList [template::multirow size CommList] "${app}_url" "specific?class_instance_id=$class_id&Name=$app"
    	}
    	

@@ -7,16 +7,16 @@ ad_library {
     
 }
 
-namespace eval application-track {
+namespace eval application-track {}
 
- ad_proc -callback getApplicationName {
+ ad_proc -callback application-track::getApplicationName {
         -
   } {
     Obtains application names
     
 } -
 
- ad_proc -callback getGeneralInfo {
+ ad_proc -callback application-track::getGeneralInfo {
     -comm_id:required
 } {
     Obtains application independient info
@@ -25,7 +25,7 @@ namespace eval application-track {
 } -
 
 
-ad_proc -callback getSpecificInfo {
+ad_proc -callback application-track::getSpecificInfo {
    -comm_id:required -query_name -elements_name
 } {
     Obtains application dependient info
@@ -33,7 +33,5 @@ ad_proc -callback getSpecificInfo {
     For instace, in forums, it will return a list with: forum_name, #threads, 1st_thead_date, last_thread_date
 } -
 
-    
-}
 
 
