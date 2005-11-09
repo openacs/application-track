@@ -7,7 +7,7 @@ ad_library {
     
 }
 
-namespace eval user-tracking {
+namespace eval application-track {
 
  ad_proc -callback getApplicationName {
         -
@@ -16,16 +16,16 @@ namespace eval user-tracking {
     
 } -
 
- ad_proc -callback GetGeneralInfo {
+ ad_proc -callback getGeneralInfo {
     -comm_id:required
 } {
     Obtains application independient info
     Returns a list with: comm_id, comm_name, number_of_created_elements (forums, news, faqs, ...)
-    In comm_name there will be a link to call to GetSpecificInfo of that community.
+    In comm_name there will be a link to call to getSpecificInfo of that community.
 } -
 
 
-ad_proc -callback GetSpecificInfo {
+ad_proc -callback getSpecificInfo {
    -comm_id:required -query_name -elements_name
 } {
     Obtains application dependient info

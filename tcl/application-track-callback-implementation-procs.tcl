@@ -4,7 +4,7 @@
         return "file_storage"		
     }    
 
-    ad_proc -callback GetGeneralInfo -impl file_storage {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl file_storage {} { 
         callback implementation 
     } {
     
@@ -22,7 +22,7 @@
     } 
 
 
-    ad_proc -callback GetSpecificInfo -impl file_storage {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl file_storage {} { 
         callback implementation 
     } {
    	
@@ -91,7 +91,7 @@
         return "news"
     }    
     
-    ad_proc -callback GetGeneralInfo -impl news {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl news {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -105,7 +105,7 @@
     }      
     
  
-    ad_proc -callback GetSpecificInfo -impl news {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl news {} { 
         callback implementation 
     } {
    	
@@ -147,7 +147,7 @@
     } {
         return "evaluation"
     }    
-    ad_proc -callback GetGeneralInfo -impl evaluation {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl evaluation {} { 
         callback implementation 
     } {
     
@@ -162,7 +162,7 @@
 	return "$result"
     } 
     
-     ad_proc -callback GetSpecificInfo -impl evaluation {} { 
+     ad_proc -callback application-track::getSpecificInfo -impl evaluation {} { 
         callback implementation 
     } {
    	
@@ -211,7 +211,7 @@
         return "forums"
     }    
     
-    ad_proc -callback GetGeneralInfo -impl forums {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl forums {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -224,7 +224,7 @@
 	return "$result"
     }
     
-    ad_proc -callback GetSpecificInfo -impl forums {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl forums {} { 
         callback implementation 
     } {
    	
@@ -277,7 +277,7 @@
         return "assessments"
     }    
     
-    ad_proc -callback GetGeneralInfo -impl assessments {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl assessments {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -293,7 +293,7 @@
 	return "$result"
     }
     
-    ad_proc -callback GetSpecificInfo -impl assessments {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl assessments {} { 
         callback implementation 
     } {
    	
@@ -351,7 +351,7 @@
         return "faqs"
     }    
     
-    ad_proc -callback GetGeneralInfo -impl faqs {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl faqs {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -365,7 +365,7 @@
 	return "$result"
     }
     
-    ad_proc -callback GetSpecificInfo -impl faqs {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl faqs {} { 
         callback implementation 
     } {
    	
@@ -411,7 +411,7 @@
         return "weblogger"
     }    
     
-    ad_proc -callback GetGeneralInfo -impl weblogger {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl weblogger {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -423,7 +423,7 @@
 	
 	return "$result"
     }
-    ad_proc -callback GetSpecificInfo -impl weblogger {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl weblogger {} { 
         callback implementation 
     } {
    	
@@ -457,7 +457,7 @@
         return "lorsm"
     }    
     
-    ad_proc -callback GetGeneralInfo -impl lorsm {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl lorsm {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -471,7 +471,7 @@
 	
 	return "$result"
     }
-    ad_proc -callback GetSpecificInfo -impl lorsm {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl lorsm {} { 
         callback implementation 
     } {
    	
@@ -504,7 +504,7 @@
         return "album"
     }    
       
-    ad_proc -callback GetGeneralInfo -impl album {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl album {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -521,7 +521,7 @@
     } 
 
                             
-    ad_proc -callback GetSpecificInfo -impl album {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl album {} { 
         callback implementation 
     } {
    	
@@ -573,7 +573,7 @@
         return "presentation"
     }    
       
-    ad_proc -callback GetGeneralInfo -impl presentation {} { 
+    ad_proc -callback application-track::getGeneralInfo -impl presentation {} { 
         callback implementation 
     } {
 	db_1row my_query {
@@ -593,7 +593,7 @@
    
    
    
-    ad_proc -callback GetSpecificInfo -impl presentation {} { 
+    ad_proc -callback application-track::getSpecificInfo -impl presentation {} { 
         callback implementation 
     } {
    	
