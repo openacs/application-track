@@ -162,7 +162,7 @@ template::list::create \
 
 db_multirow classes $query {}
 
-set applicationsList [callback -catch getApplicationName]
+set applicationsList [callback -catch application-track::getApplicationName]
 
 template::multirow create Applications Name
 foreach app $applicationsList {

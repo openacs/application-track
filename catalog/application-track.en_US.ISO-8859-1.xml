@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <message_catalog package_key="application-track" package_version="0.1d" locale="en_US" charset="ISO-8859-1">
 
-  <msg key="All_Applications">Todo</msg>
+  <msg key="All_Applications">All</msg>
   <msg key="Application">Application</msg>
   <msg key="Application_Name">Application Name</msg>
   <msg key="Application_Track">Application Track</msg>
@@ -31,6 +31,7 @@
   <msg key="Please_type_a_keyword">Please type a keyword</msg>
   <msg key="Previous_report">Previous report</msg>
   <msg key="Report_about_installed_applications">Report about installed applications</msg>
+  <msg key="Select_applications_to_analyze">Select applications to analyze</msg>
   <msg key="Select_by_applications">Select by applications</msg>
   <msg key="Select_by_communities">Select by communities</msg>
   <msg key="Select_by_department_term">Select by department and/or term</msg>

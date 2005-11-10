@@ -5,7 +5,7 @@ ad_page_contract {
     classes:multirow
 }
 
-set applicationsList [callback -catch getApplicationName]
+set applicationsList [callback -catch application-track::getApplicationName]
 
 template::multirow create Applications Name
 foreach app $applicationsList {

@@ -14,7 +14,7 @@ ad_page_contract {
 if {[exists_and_not_null Name]} {
 	set applicationsList $Name
 } else {
-set applicationsList [callback -catch getApplicationName]
+set applicationsList [callback -catch application-track::getApplicationName]
 }
 
 if { [exists_and_not_null community_id] } {
