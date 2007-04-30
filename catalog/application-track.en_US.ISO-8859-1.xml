@@ -23,7 +23,7 @@
   <msg key="Group_Name">Group Name</msg>
   <msg key="ID">ID</msg>
   <msg key="lt_click_on_elements_number">Click on created elements number to see a report about the use of the application within the community.</msg>
-  <msg key="lt_click_on_Go">Click on #application-track.Go# to see a report about every application installed within the community.</msg>
+  <msg key="lt_click_on_Go">Click on Go to see a report about every application installed within the community.</msg>
   <msg key="lt_elements_created">Elements created by every application within selected communities</msg>
   <msg key="lt_View_data_about_every_application">View data about every application in selected communities</msg>
   <msg key="lt_View_data_for_selected_applications">View data for selected applications in every community</msg>
